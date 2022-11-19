@@ -3,6 +3,7 @@ using ATM_APP.Domain.Interfaces;
 using ATM_APP.UI;
 using System;
 using System.Collections.Generic;
+using System.Threading;
 
 namespace ATM_APP.App
 {
@@ -23,11 +24,51 @@ namespace ATM_APP.App
         public void CheckUserCardNumAndPassword()
         {
             bool isCorrectLogin = false;
-            UserAccount tempUserAccount=new UserAccount();
-            tempUserAccount.CardNumber = Validator.Convert<long>("your card number.");
-            tempUserAccount.CardPin =;
+            while (isCorrectLogin == false)
+            {
+                UserAccount inputAccount = Appscreen.UserLoginForm();
+                Appscreen.LoginProgress();
+                foreach(UserAccount account in userAccountList)
+                {
+                    selectedAccount=account;
+                    if(inputAccount.CardNumber.Equals(selectedAccount.CardNumber))
+                    {
+                        selectedAccount.TotalLogin++;
+                        if(inputAccount.CardPin.Equals(selectedAccount.CardPin))
+                        {
+                            selectedAccount = account;
+                            if(selectedAccount.IsLocked||selectedAccount.TotalLogin>3)
+                            {
+                                Appscreen.PrintLockScreen();
+                            }
+                            else
+                            {
+                                selectedAccount.TotalLogin = 0;
+                                isCorrectLogin = true;
+                                break;
+                            }
+                        }
+                    }
+                    if (isCorrectLogin == false)
+                    {
+                        Utility.PrintMessage("\nInvalid car number or PIN.", false);
+                        selectedAccount.IsLocked = selectedAccount.TotalLogin == 3;
+                        if (selectedAccount.IsLocked)
+                        {
+                            Appscreen.PrintLockScreen();
+                        }
+                    }
+                    Console.Clear();
+                }
+            }
+            
+            
+        }
+
+        public void Welcome()
+        {
+            Console.WriteLine($"Welcome back,{selectedAccount.FullName}");
         }
        
     }
 }
-//hello
