@@ -1,0 +1,14 @@
+C:\Users\xiaohanW_\source\repos\ATM_APP\ATM_APP\bin\Debug\netcoreapp3.1\ATM_APP.exe
+C:\Users\xiaohanW_\source\repos\ATM_APP\ATM_APP\bin\Debug\netcoreapp3.1\ATM_APP.deps.json
+C:\Users\xiaohanW_\source\repos\ATM_APP\ATM_APP\bin\Debug\netcoreapp3.1\ATM_APP.runtimeconfig.json
+C:\Users\xiaohanW_\source\repos\ATM_APP\ATM_APP\bin\Debug\netcoreapp3.1\ATM_APP.runtimeconfig.dev.json
+C:\Users\xiaohanW_\source\repos\ATM_APP\ATM_APP\bin\Debug\netcoreapp3.1\ATM_APP.dll
+C:\Users\xiaohanW_\source\repos\ATM_APP\ATM_APP\bin\Debug\netcoreapp3.1\ATM_APP.pdb
+C:\Users\xiaohanW_\source\repos\ATM_APP\ATM_APP\obj\Debug\netcoreapp3.1\ATM_APP.csproj.AssemblyReference.cache
+C:\Users\xiaohanW_\source\repos\ATM_APP\ATM_APP\obj\Debug\netcoreapp3.1\ATM_APP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xiaohanW_\source\repos\ATM_APP\ATM_APP\obj\Debug\netcoreapp3.1\ATM_APP.AssemblyInfoInputs.cache
+C:\Users\xiaohanW_\source\repos\ATM_APP\ATM_APP\obj\Debug\netcoreapp3.1\ATM_APP.AssemblyInfo.cs
+C:\Users\xiaohanW_\source\repos\ATM_APP\ATM_APP\obj\Debug\netcoreapp3.1\ATM_APP.csproj.CoreCompileInputs.cache
+C:\Users\xiaohanW_\source\repos\ATM_APP\ATM_APP\obj\Debug\netcoreapp3.1\ATM_APP.dll
+C:\Users\xiaohanW_\source\repos\ATM_APP\ATM_APP\obj\Debug\netcoreapp3.1\ATM_APP.pdb
+C:\Users\xiaohanW_\source\repos\ATM_APP\ATM_APP\obj\Debug\netcoreapp3.1\ATM_APP.genruntimeconfig.cache
