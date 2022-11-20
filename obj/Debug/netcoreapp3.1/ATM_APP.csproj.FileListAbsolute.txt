@@ -12,3 +12,5 @@ C:\Users\xiaohanW_\source\repos\ATM_APP\ATM_APP\obj\Debug\netcoreapp3.1\ATM_APP.
 C:\Users\xiaohanW_\source\repos\ATM_APP\ATM_APP\obj\Debug\netcoreapp3.1\ATM_APP.dll
 C:\Users\xiaohanW_\source\repos\ATM_APP\ATM_APP\obj\Debug\netcoreapp3.1\ATM_APP.pdb
 C:\Users\xiaohanW_\source\repos\ATM_APP\ATM_APP\obj\Debug\netcoreapp3.1\ATM_APP.genruntimeconfig.cache
+C:\Users\xiaohanW_\source\repos\ATM_APP\ATM_APP\bin\Debug\netcoreapp3.1\ConsoleTables.dll
+C:\Users\xiaohanW_\source\repos\ATM_APP\ATM_APP\obj\Debug\netcoreapp3.1\ATM_APP.csproj.CopyComplete

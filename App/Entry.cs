@@ -9,12 +9,10 @@ namespace ATM_APP.App
     {
         static void Main(string[] args)
         {
-            Appscreen.Welcome();
             ATM_APP atmApp=new ATM_APP();
             atmApp.InitializeData();
-            atmApp.CheckUserCardNumAndPassword();
-            atmApp.Welcome();
-            Utility.PressEnterToContinue();
+            atmApp.Run();
+            
         }
     }
 }
